@@ -1,4 +1,4 @@
-# 01.GettingStartedwDataAnalysis
+# 01.Getting Started with Data Analysis
 Tips on how to set yourself up for easy data analysis
 
 This repository is set up to help you design and manage your workflows and 
@@ -36,3 +36,33 @@ files.
 
 Within your project is is important to have a clean and managed directory. This 
 means keeping files organised within folders. 
+
+One way to organise a directory is like this: 
+
+-------------->01.GettingStartedwDataAnalysis 
+            |
+            ---->excel_files 
+            |
+            ---->import_files 
+            |
+            ---->data_analysis 
+              |
+              ---->01.DataMetric1 
+              |
+              ---->02.DataMetric2 
+              | 
+              ---->03.DataMetric3 
+            | 
+            ---->figures 
+            |
+            ---->tables 
+            |
+            ---->manuscripts 
+            
+This way it is easy for someone to navigate your repository in the future. I 
+have included both **excel_files** as well as **import_files**. It is good 
+practice when working with data to have a **Glossary** of terms in your excel 
+files so that a reader unfamiliar with your data set knows what your columns 
+and codes mean. However, because data that will actually be imported into R I 
+save as text files. 
+
