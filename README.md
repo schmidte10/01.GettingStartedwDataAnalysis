@@ -73,6 +73,7 @@ save as text files.
 Excel files should always have a **glossary** sheet within the file to help 
 future users understand your data and codes. Here is an example: 
 
+```bash
 --------------------- ------------------------------------------------------------------
 **EXP_FISH_ID**       Combined FISH_ID with TEMPERATURE the fish was tested at
 **FISH_ID**           Unique alphamueric code provided to fish
@@ -103,3 +104,4 @@ future users understand your data and codes. Here is an example:
 **Notes**             Additional experimental notes
 **MASS_CENTERED**     Mass of fish (centered)
 --------------------- -----------------------------------------------------------------
+```
