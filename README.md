@@ -39,6 +39,7 @@ means keeping files organised within folders.
 
 One way to organise a directory is like this: 
 
+```bash
 -------------->01.GettingStartedwDataAnalysis 
             |
             ---->excel_files 
@@ -58,7 +59,8 @@ One way to organise a directory is like this:
             ---->tables 
             |
             ---->manuscripts 
-            
+```
+
 This way it is easy for someone to navigate your repository in the future. I 
 have included both **excel_files** as well as **import_files**. It is good 
 practice when working with data to have a **Glossary** of terms in your excel 
