@@ -41,24 +41,24 @@ One way to organise a directory is like this:
 
 ```bash
 -------------->01.GettingStartedwDataAnalysis 
-            |
-            ---->excel_files 
-            |
-            ---->import_files 
-            |
-            ---->data_analysis 
-              |
-              ---->01.DataMetric1 
-              |
-              ---->02.DataMetric2 
-              | 
-              ---->03.DataMetric3 
-            | 
-            ---->figures 
-            |
-            ---->tables 
-            |
-            ---->manuscripts 
+               |
+                ---->excel_files 
+               |
+                ---->import_files 
+               |
+                ---->data_analysis 
+                     |
+                      ---->01.DataMetric1 
+                     |
+                      ---->02.DataMetric2 
+                     | 
+                      ---->03.DataMetric3 
+               | 
+                ---->figures 
+               |
+                ---->tables 
+               |
+                ---->manuscripts 
 ```
 
 This way it is easy for someone to navigate your repository in the future. I 
@@ -68,3 +68,38 @@ files so that a reader unfamiliar with your data set knows what your columns
 and codes mean. However, because data that will actually be imported into R I 
 save as text files. 
 
+## Glossasy 
+
+Excel files should always have a **glossary** sheet within the file to help 
+future users understand your data and codes. Here is an example: 
+
+--------------------- ------------------------------------------------------------------
+**EXP_FISH_ID**       Combined FISH_ID with TEMPERATURE the fish was tested at
+**FISH_ID**           Unique alphamueric code provided to fish
+**POPULATION**        Population/Reef the fish was collected from 
+**REGION**            Region (i.e. core or leading) fish was collected from 
+**TEMPERATURE**       Temperature fish was tested at 
+**MASS**              Mass of the fish 
+**RESTING_DATE**      Date the resting metabolic rate was recorded for each fish     
+**RESTING_CHAMBER**   Respirometry chamber the fish was tested in for RMR
+**RESTING_SYSTEM**    Respirometry system (i.e. dell or asus) fish was tests with 
+**RESTING_SUMP**      Respirometry sump (i.e., 1 or 2) fish was tested in
+**RESTING_AM_PM**     Time of day (i.e. morning or afternoon) fish was tested 
+**RESTING_START_TIME**Time that the fish was placed inside the repirometry chamber 
+**RESTING**           Resting metabolic rate (RMR)  
+**RESTING_MgO2.hr**   Resting metabolic rate divded mass 
+**MAX_DATE**          Date that maximum metabolic rate was recored 
+**MAX_CHAMBER**       Respirometry chamber the fish was tested in for MMR
+**MAX_SYSTEM**        Respirometry system fish was test with for MMR 
+**MAX_SUMP**          Respirometry sump (i.e., 1 or 2) fish was tested in for MMR 
+**MAX_AM_PM**         Time of day (i.e. morning or afternoon) fish was tested for MMR 
+**MAX_START_TIME**    Time that the fish was placed inside the chamber for MMR 
+**MAX**               Maximum metabolic rate (MMR) 
+**MAX_MgO2.hr**       Maximum metabolic rate divided by mass 
+**FAS**               Factorial metabolic rate (MMR/RMR) 
+**NAS**               Net metabolic rate (MMR - RMR) 
+**MgO2.hr_Net**       Net metaboic rate divided by mass 
+**Swim.performance**  Fish swim performance in swim tunnel (i.e., good, okay, poor) 
+**Notes**             Additional experimental notes
+**MASS_CENTERED**     Mass of fish (centered)
+--------------------- -----------------------------------------------------------------
